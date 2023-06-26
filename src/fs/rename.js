@@ -1,4 +1,4 @@
-import {ERROR_TEXT, getPath} from './util.js';
+import {ERROR_TEXT, getPath} from '../util.js';
 import * as fs from 'fs/promises';
 
 const wrongFilenamePath = getPath(import.meta.url, 'files/wrongFilename.txt');

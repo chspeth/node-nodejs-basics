@@ -1,5 +1,5 @@
 import * as fs from 'fs/promises';
-import {ERROR_TEXT, getPath} from './util.js';
+import {ERROR_TEXT, getPath} from '../util.js';
 
 const fileToReadPath = getPath(import.meta.url, 'files/fileToRead.txt');
 

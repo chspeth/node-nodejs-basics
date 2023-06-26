@@ -1,6 +1,6 @@
 import { createHash } from "crypto";
 import { readFile } from 'fs/promises';
-import { getPath } from '../fs/util.js';
+import { getPath } from '../util.js';
 
 const filePath = getPath(import.meta.url, 'files/fileToCalculateHashFor.txt');
 
